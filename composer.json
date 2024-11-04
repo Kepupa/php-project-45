@@ -1,0 +1,14 @@
+{
+    "bin": [
+  "bin/brain-games"
+    ],
+    "name": "hexlet/code",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "require": {},
+    "description": "hexlet project",
+    "license": "proprietary"
+}
