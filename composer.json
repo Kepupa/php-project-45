@@ -2,6 +2,7 @@
     "bin": [
   "bin/brain-games"
     ],
+
     "name": "hexlet/code",
     "autoload": {
         "files": ["src/Cli.php"],
@@ -9,12 +10,14 @@
             "Hexlet\\Code\\": "src/"
         }
     },
+
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+
     "require": {
         "wp-cli/php-cli-tools": "^0.12.1"
     },
     "description": "hexlet project",
     "license": "proprietary"
-    
-
-    
 }
