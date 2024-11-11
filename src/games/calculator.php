@@ -14,20 +14,12 @@ function calcolator($num1, $operator, $num2)
     }
     if($operator === '-'){
         if($num1 < $num2){
-            $temp = $num1;
-            $num1 = $num2;
-            $num2 = $temp;
+        list($num1, $num2) = [$num2, $num1];
         }
         return (string) ($num1 - $num2);
     }
     if($operator === '*'){
         return (string) ($num1 * $num2);
-    }
-    if($operator === '/'){
-        while($num1 % $num2 !== 0){
-            $num2 = randNum();
-        }
-        return (string)($num1 / $num2);
     }
 }
 
@@ -43,7 +35,6 @@ function brainCalc(){
             '+',
             '-',
             '*',
-            '/'
         ];
         $num1 = randNum();
         $num2 = randNum();

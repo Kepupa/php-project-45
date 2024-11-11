@@ -2,7 +2,8 @@
     "bin": [
     "bin/brain-games",
     "bin/brain-even",
-    "bin/brain-calc"
+    "bin/brain-calc",
+    "bin/brain-gcd"
     ],
 
     "name": "hexlet/code",
@@ -13,7 +14,8 @@
             "src/UserName.php",
             "src/games/isEven.php",
             "src/randomNum.php",
-            "src/games/calculator.php"
+            "src/games/calculator.php",
+            "src/games/gcd.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
